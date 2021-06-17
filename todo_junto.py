@@ -4,16 +4,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import ElasticNetCV as eNetCv
 from sklearn import metrics
 
-def suma(x, y):
-    miSuma = x + y
-    return miSuma
+print('Suma 21+5: ', 21+5)
+print('Resta: 26-5: ', 26 - 5)
 
-def resta(x,y):
-    miResta = x - y
-    return miResta
-
-print('Suma : ', suma(21, 5))
-print('Resta: ', resta(suma(21, 5), 5))
+print('Suma 10+4 : ', 10+4)
+print('Resta: 126-45: ', 126 - 45)
 
 df = pd.read_csv('StudentsPerformance.csv')
  # reemplazamos los espacios por _ 
