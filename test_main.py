@@ -13,7 +13,7 @@ def test_suma():
     assert suma(2, 2) == 4
 
 def test_modelo():
-    score = implemento_modelo('StudentsPerformance.csv')
+    score = implemento_modelo('StudentsPerformance.csv', 0.33, 3, 8)
     assert score > 0.2
 
 
